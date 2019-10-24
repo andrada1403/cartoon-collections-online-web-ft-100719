@@ -16,7 +16,4 @@ def long_planeteer_calls(calls)
   end
 end
 
-def find_the_cheese(foods)
-  array_of_cheeses=["cheddar","gouda","camembert"]
-  array_of_cheeses.select {|i| foods.include? (i)}.flatten
-end
+c
