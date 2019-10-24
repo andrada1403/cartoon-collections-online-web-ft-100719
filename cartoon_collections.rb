@@ -18,5 +18,5 @@ end
 
 def find_the_cheese(foods)
   array_of_cheeses=["cheddar","gouda","camembert"]
-   foods.select {|i| i.include? ("cheese")}
+   foods.select {|i| foods.include? ("")}
 end
