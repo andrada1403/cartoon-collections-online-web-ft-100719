@@ -18,6 +18,5 @@ end
 
 def find_the_cheese(foods)
   array_of_cheeses=["cheddar","gouda","camembert"]
-   array_of_cheeses.select {|i| foods.include? (i)}
-   foods.split (" ")
+   array_of_cheeses.select {|i| foods.include? (i).split (" ")}
 end
